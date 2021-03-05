@@ -283,7 +283,7 @@ PrefabInstance:
     - target: {fileID: 8290908462415831000, guid: bb2e7950701fcf64e865b32a1de47974,
         type: 3}
       propertyPath: _newGameButtonLevel
-      value: Scenes/Prefabs
+      value: Scenes/Game
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb2e7950701fcf64e865b32a1de47974, type: 3}

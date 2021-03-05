@@ -185,6 +185,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -330,6 +333,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -402,6 +408,7 @@ MonoBehaviour:
     staminaRecoveryDelay: 0
     ignoreDefense: 0
     activeRagdoll: 0
+    senselessTime: 0
     sender: {fileID: 0}
     receiver: {fileID: 0}
     hitPosition: {x: 0, y: 0, z: 0}
@@ -409,6 +416,7 @@ MonoBehaviour:
     recoil_id: 0
     reaction_id: 0
     damageType: 
+    force: {x: 0, y: 0, z: 0}
   overrideDamageSender: {fileID: 0}
   hitBoxes:
   - {fileID: 114000010284181290}
@@ -418,6 +426,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
     m_PersistentCalls:
       m_Calls: []
   onEnableDamage:
@@ -803,6 +814,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -1310,6 +1324,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -1455,6 +1472,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -1527,6 +1547,7 @@ MonoBehaviour:
     staminaRecoveryDelay: 0
     ignoreDefense: 0
     activeRagdoll: 0
+    senselessTime: 0
     sender: {fileID: 0}
     receiver: {fileID: 0}
     hitPosition: {x: 0, y: 0, z: 0}
@@ -1534,6 +1555,7 @@ MonoBehaviour:
     recoil_id: 0
     reaction_id: 0
     damageType: 
+    force: {x: 0, y: 0, z: 0}
   overrideDamageSender: {fileID: 0}
   hitBoxes:
   - {fileID: 114000014282575590}
@@ -1543,6 +1565,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
     m_PersistentCalls:
       m_Calls: []
   onEnableDamage:
@@ -1598,6 +1623,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1615,6 +1641,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1796,6 +1823,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -1926,7 +1956,6 @@ MonoBehaviour:
   openCloseWindow: 0
   selectedToolbar: 0
   attackObject: {fileID: 0}
-  trigger: {fileID: 65000011795402926}
   damagePercentage: 100
   triggerType: -1
 --- !u!65 &65000011795402926
@@ -1990,7 +2019,6 @@ MonoBehaviour:
   openCloseWindow: 0
   selectedToolbar: 0
   attackObject: {fileID: 0}
-  trigger: {fileID: 65000010003935362}
   damagePercentage: 100
   triggerType: -1
 --- !u!65 &65000010003935362
@@ -2095,6 +2123,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2107,6 +2136,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2243,6 +2273,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -2315,6 +2348,7 @@ MonoBehaviour:
     staminaRecoveryDelay: 0
     ignoreDefense: 0
     activeRagdoll: 0
+    senselessTime: 0
     sender: {fileID: 0}
     receiver: {fileID: 0}
     hitPosition: {x: 0, y: 0, z: 0}
@@ -2322,6 +2356,7 @@ MonoBehaviour:
     recoil_id: 0
     reaction_id: 0
     damageType: 
+    force: {x: 0, y: 0, z: 0}
   overrideDamageSender: {fileID: 0}
   hitBoxes:
   - {fileID: 114000012577518312}
@@ -2331,6 +2366,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
     m_PersistentCalls:
       m_Calls: []
   onEnableDamage:
@@ -2665,6 +2703,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2682,6 +2721,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2824,6 +2864,7 @@ MonoBehaviour:
     staminaRecoveryDelay: 1
     ignoreDefense: 0
     activeRagdoll: 0
+    senselessTime: 0
     sender: {fileID: 0}
     receiver: {fileID: 0}
     hitPosition: {x: 0, y: 0, z: 0}
@@ -2831,6 +2872,7 @@ MonoBehaviour:
     recoil_id: 0
     reaction_id: 0
     damageType: 
+    force: {x: 0, y: 0, z: 0}
   overrideDamageSender: {fileID: 0}
   hitBoxes:
   - {fileID: 114000013469906582}
@@ -2840,6 +2882,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
     m_PersistentCalls:
       m_Calls: []
   onEnableDamage:
@@ -3079,6 +3124,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -3191,7 +3239,6 @@ MonoBehaviour:
   openCloseWindow: 0
   selectedToolbar: 0
   attackObject: {fileID: 0}
-  trigger: {fileID: 65000013749303608}
   damagePercentage: 100
   triggerType: -1
 --- !u!1 &1000012606821774
@@ -3458,6 +3505,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -3694,7 +3744,6 @@ MonoBehaviour:
   openCloseWindow: 0
   selectedToolbar: 0
   attackObject: {fileID: 0}
-  trigger: {fileID: 65000010839612324}
   damagePercentage: 100
   triggerType: -1
 --- !u!65 &65000010839612324
@@ -3789,7 +3838,6 @@ MonoBehaviour:
   openCloseWindow: 0
   selectedToolbar: 0
   attackObject: {fileID: 0}
-  trigger: {fileID: 65000013851004308}
   damagePercentage: 100
   triggerType: -1
 --- !u!65 &65000013851004308
@@ -3941,10 +3989,19 @@ MonoBehaviour:
   healthRecoveryDelay: 0
   currentHealthRecoveryDelay: 0
   checkHealthEvents: []
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
   _onDead:
+    m_PersistentCalls:
+      m_Calls: []
+  onChangeHealth:
+    m_PersistentCalls:
+      m_Calls: []
+  onResetHealth:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 0
@@ -4112,9 +4169,13 @@ MonoBehaviour:
   openCloseEvents: 0
   openCloseWindow: 1
   selectedToolbar: 0
+  startRagdolled: 0
+  debugTimeToStayRagdolled: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 1
+  keepRagdolled: 0
+  _ignoreGetUpAnimation: 0
   removePhysicsAfterDie: 0
   disableColliders: 1
   collisionSource: {fileID: 82000012296570172}
@@ -4162,6 +4223,7 @@ MonoBehaviour:
     staminaRecoveryDelay: 1
     ignoreDefense: 0
     activeRagdoll: 0
+    senselessTime: 0
     sender: {fileID: 0}
     receiver: {fileID: 0}
     hitPosition: {x: 0, y: 0, z: 0}
@@ -4169,6 +4231,7 @@ MonoBehaviour:
     recoil_id: 0
     reaction_id: 0
     damageType: 
+    force: {x: 0, y: 0, z: 0}
   hitProperties:
     hitDamageTags:
     - Enemy
@@ -4461,6 +4524,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -4533,6 +4599,7 @@ MonoBehaviour:
     staminaRecoveryDelay: 0
     ignoreDefense: 0
     activeRagdoll: 0
+    senselessTime: 0
     sender: {fileID: 0}
     receiver: {fileID: 0}
     hitPosition: {x: 0, y: 0, z: 0}
@@ -4540,6 +4607,7 @@ MonoBehaviour:
     recoil_id: 0
     reaction_id: 0
     damageType: 
+    force: {x: 0, y: 0, z: 0}
   overrideDamageSender: {fileID: 0}
   hitBoxes:
   - {fileID: 114000012626782158}
@@ -4549,6 +4617,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
     m_PersistentCalls:
       m_Calls: []
   onEnableDamage:
@@ -5056,6 +5127,9 @@ MonoBehaviour:
   maxReactionID: 0
   changeToMaxValue: 0
   targetReceiver: {fileID: 0}
+  _onStartReceiveDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -5346,7 +5420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -0.0024953708, y: 0}
+  m_AnchoredPosition: {x: -0.002494812, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222084995887199378
@@ -5366,12 +5440,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1165663297628830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5384,6 +5459,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1185394156800082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5438,12 +5514,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185394156800082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5496,7 +5573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00001687603, y: -0.061016656}
+  m_AnchoredPosition: {x: 0.000016868114, y: -0.06101665}
   m_SizeDelta: {x: 85.785, y: 21.103}
   m_Pivot: {x: 0.5000001, y: 0.50000024}
 --- !u!114 &114065658836344800
@@ -5508,7 +5585,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1193031029945448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -5522,17 +5599,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
@@ -5629,7 +5709,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1527589886200114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -5643,17 +5723,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
@@ -5757,12 +5840,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595540157115838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.057758622, g: 0.49264705, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5775,6 +5859,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1665165991417694
 GameObject:
   m_ObjectHideFlags: 0
@@ -5884,12 +5969,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1825224469398432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.23921569, b: 0.23921569, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5902,6 +5988,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1893824425045054
 GameObject:
   m_ObjectHideFlags: 0
@@ -5972,7 +6059,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1893824425045054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
@@ -5994,7 +6081,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1893824425045054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
