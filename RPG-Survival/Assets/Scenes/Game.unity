@@ -1450,7 +1450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013806479290, guid: 5fc63571cb5f9ca499a44aa35cf94be4, type: 3}
       propertyPath: m_Name
-      value: vMeleeController_Inventory
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4000013372518092, guid: 5fc63571cb5f9ca499a44aa35cf94be4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11096,6 +11096,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1702466426}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1704385542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013806479290, guid: 5fc63571cb5f9ca499a44aa35cf94be4,
+    type: 3}
+  m_PrefabInstance: {fileID: 235174711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1704385543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704385542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 825dbca7ca26a3d4dbfc5fa85549bbd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1722414816
 PrefabInstance:
   m_ObjectHideFlags: 0
