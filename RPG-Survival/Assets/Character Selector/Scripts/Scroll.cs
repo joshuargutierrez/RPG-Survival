@@ -91,6 +91,8 @@ public class Scroll : MonoBehaviour
 
                 case "Winston": SceneManager.LoadScene("Winston"); break;
 
+                case "Max": SceneManager.LoadScene("Max"); break;
+
                 default: SceneManager.LoadScene("MainMenu"); break;
             }
         }
