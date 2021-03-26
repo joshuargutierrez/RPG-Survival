@@ -6749,57 +6749,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &314925571782902294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314925573093884291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openCloseEvents: 0
-  openCloseWindow: 0
-  selectedToolbar: 0
-  damage:
-    damageValue: 15
-    staminaBlockCost: 5
-    staminaRecoveryDelay: 1
-    ignoreDefense: 0
-    activeRagdoll: 0
-    senselessTime: 0
-    sender: {fileID: 0}
-    receiver: {fileID: 0}
-    hitPosition: {x: 0, y: 0, z: 0}
-    hitReaction: 1
-    recoil_id: 0
-    reaction_id: 0
-    damageType: 
-    force: {x: 0, y: 0, z: 0}
-  overrideDamageSender: {fileID: 0}
-  hitBoxes:
-  - {fileID: 314925572216655731}
-  damageModifier: 0
-  canApplyDamage: 0
-  onDamageHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onRecoilHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onPassDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onEnableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onDisableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  meleeManager: {fileID: 0}
 --- !u!1 &314925571783663417
 GameObject:
   m_ObjectHideFlags: 0
@@ -14967,57 +14916,6 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 314925572111669479}
---- !u!114 &314925572124117253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314925573093884411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openCloseEvents: 0
-  openCloseWindow: 0
-  selectedToolbar: 0
-  damage:
-    damageValue: 15
-    staminaBlockCost: 5
-    staminaRecoveryDelay: 1
-    ignoreDefense: 0
-    activeRagdoll: 0
-    senselessTime: 0
-    sender: {fileID: 0}
-    receiver: {fileID: 0}
-    hitPosition: {x: 0, y: 0, z: 0}
-    hitReaction: 1
-    recoil_id: 0
-    reaction_id: 0
-    damageType: 
-    force: {x: 0, y: 0, z: 0}
-  overrideDamageSender: {fileID: 0}
-  hitBoxes:
-  - {fileID: 314925573066025236}
-  damageModifier: 0
-  canApplyDamage: 0
-  onDamageHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onRecoilHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onPassDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onEnableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onDisableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  meleeManager: {fileID: 0}
 --- !u!1 &314925572130673199
 GameObject:
   m_ObjectHideFlags: 0
@@ -37897,57 +37795,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &314925572568747568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314925573093884391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openCloseEvents: 0
-  openCloseWindow: 0
-  selectedToolbar: 0
-  damage:
-    damageValue: 15
-    staminaBlockCost: 5
-    staminaRecoveryDelay: 1
-    ignoreDefense: 0
-    activeRagdoll: 0
-    senselessTime: 0
-    sender: {fileID: 0}
-    receiver: {fileID: 0}
-    hitPosition: {x: 0, y: 0, z: 0}
-    hitReaction: 1
-    recoil_id: 0
-    reaction_id: 0
-    damageType: 
-    force: {x: 0, y: 0, z: 0}
-  overrideDamageSender: {fileID: 0}
-  hitBoxes:
-  - {fileID: 314925573578994015}
-  damageModifier: 0
-  canApplyDamage: 0
-  onDamageHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onRecoilHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onPassDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onEnableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onDisableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  meleeManager: {fileID: 0}
 --- !u!1 &314925572569030886
 GameObject:
   m_ObjectHideFlags: 0
@@ -44106,57 +43953,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: defense
---- !u!114 &314925572853515128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314925573093884311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openCloseEvents: 0
-  openCloseWindow: 0
-  selectedToolbar: 0
-  damage:
-    damageValue: 15
-    staminaBlockCost: 5
-    staminaRecoveryDelay: 1
-    ignoreDefense: 0
-    activeRagdoll: 0
-    senselessTime: 0
-    sender: {fileID: 0}
-    receiver: {fileID: 0}
-    hitPosition: {x: 0, y: 0, z: 0}
-    hitReaction: 1
-    recoil_id: 0
-    reaction_id: 0
-    damageType: 
-    force: {x: 0, y: 0, z: 0}
-  overrideDamageSender: {fileID: 0}
-  hitBoxes:
-  - {fileID: 314925571574648556}
-  damageModifier: 0
-  canApplyDamage: 0
-  onDamageHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onRecoilHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onPassDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onEnableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onDisableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  meleeManager: {fileID: 0}
 --- !u!1 &314925572859496037
 GameObject:
   m_ObjectHideFlags: 0
@@ -49260,6 +49056,210 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &314925571782902294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314925573093884291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 0
+  selectedToolbar: 0
+  damage:
+    damageValue: 15
+    staminaBlockCost: 5
+    staminaRecoveryDelay: 1
+    ignoreDefense: 0
+    activeRagdoll: 0
+    senselessTime: 0
+    sender: {fileID: 0}
+    receiver: {fileID: 0}
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitReaction: 1
+    recoil_id: 0
+    reaction_id: 0
+    damageType: 
+    force: {x: 0, y: 0, z: 0}
+  overrideDamageSender: {fileID: 0}
+  hitBoxes:
+  - {fileID: 314925572216655731}
+  damageModifier: 0
+  canApplyDamage: 0
+  onDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  meleeManager: {fileID: 0}
+--- !u!114 &314925572853515128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314925573093884311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 0
+  selectedToolbar: 0
+  damage:
+    damageValue: 15
+    staminaBlockCost: 5
+    staminaRecoveryDelay: 1
+    ignoreDefense: 0
+    activeRagdoll: 0
+    senselessTime: 0
+    sender: {fileID: 0}
+    receiver: {fileID: 0}
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitReaction: 1
+    recoil_id: 0
+    reaction_id: 0
+    damageType: 
+    force: {x: 0, y: 0, z: 0}
+  overrideDamageSender: {fileID: 0}
+  hitBoxes:
+  - {fileID: 314925571574648556}
+  damageModifier: 0
+  canApplyDamage: 0
+  onDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  meleeManager: {fileID: 0}
+--- !u!114 &314925572568747568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314925573093884391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 0
+  selectedToolbar: 0
+  damage:
+    damageValue: 15
+    staminaBlockCost: 5
+    staminaRecoveryDelay: 1
+    ignoreDefense: 0
+    activeRagdoll: 0
+    senselessTime: 0
+    sender: {fileID: 0}
+    receiver: {fileID: 0}
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitReaction: 1
+    recoil_id: 0
+    reaction_id: 0
+    damageType: 
+    force: {x: 0, y: 0, z: 0}
+  overrideDamageSender: {fileID: 0}
+  hitBoxes:
+  - {fileID: 314925573578994015}
+  damageModifier: 0
+  canApplyDamage: 0
+  onDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  meleeManager: {fileID: 0}
+--- !u!114 &314925572124117253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314925573093884411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 0
+  selectedToolbar: 0
+  damage:
+    damageValue: 15
+    staminaBlockCost: 5
+    staminaRecoveryDelay: 1
+    ignoreDefense: 0
+    activeRagdoll: 0
+    senselessTime: 0
+    sender: {fileID: 0}
+    receiver: {fileID: 0}
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitReaction: 1
+    recoil_id: 0
+    reaction_id: 0
+    damageType: 
+    force: {x: 0, y: 0, z: 0}
+  overrideDamageSender: {fileID: 0}
+  hitBoxes:
+  - {fileID: 314925573066025236}
+  damageModifier: 0
+  canApplyDamage: 0
+  onDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  meleeManager: {fileID: 0}
 --- !u!1 &314925573103396444
 GameObject:
   m_ObjectHideFlags: 0
@@ -59215,7 +59215,7 @@ GameObject:
   - component: {fileID: 314925573566656916}
   - component: {fileID: 314925573566656923}
   m_Layer: 8
-  m_Name: Dimples
+  m_Name: Brutillus
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60992,21 +60992,21 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 9500000, guid: c7f0106764ee15349a4c9565526c0077, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c7f0106764ee15349a4c9565526c0077, type: 3}
---- !u!4 &314925573094055401 stripped
+--- !u!1 &314925573093884291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100048, guid: c7f0106764ee15349a4c9565526c0077,
+    type: 3}
+  m_PrefabInstance: {fileID: 314925573093918547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &314925573094055403 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400058, guid: c7f0106764ee15349a4c9565526c0077,
+  m_CorrespondingSourceObject: {fileID: 400056, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &314925573093884411 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: c7f0106764ee15349a4c9565526c0077,
-    type: 3}
-  m_PrefabInstance: {fileID: 314925573093918547}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055407 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400060, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
@@ -61046,15 +61046,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055379 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: c7f0106764ee15349a4c9565526c0077,
-    type: 3}
-  m_PrefabInstance: {fileID: 314925573093918547}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055413 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400038, guid: c7f0106764ee15349a4c9565526c0077,
+--- !u!1 &314925573093884311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100036, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
@@ -61064,33 +61058,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055377 stripped
+--- !u!4 &314925573094055413 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400002, guid: c7f0106764ee15349a4c9565526c0077,
-    type: 3}
-  m_PrefabInstance: {fileID: 314925573093918547}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055375 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400028, guid: c7f0106764ee15349a4c9565526c0077,
-    type: 3}
-  m_PrefabInstance: {fileID: 314925573093918547}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055403 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400056, guid: c7f0106764ee15349a4c9565526c0077,
-    type: 3}
-  m_PrefabInstance: {fileID: 314925573093918547}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &314925573093884391 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100020, guid: c7f0106764ee15349a4c9565526c0077,
-    type: 3}
-  m_PrefabInstance: {fileID: 314925573093918547}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055367 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400020, guid: c7f0106764ee15349a4c9565526c0077,
+  m_CorrespondingSourceObject: {fileID: 400038, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
@@ -61100,15 +61070,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &314925573093884311 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100036, guid: c7f0106764ee15349a4c9565526c0077,
+--- !u!4 &314925573094055379 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055365 stripped
+--- !u!4 &314925573094055367 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400022, guid: c7f0106764ee15349a4c9565526c0077,
+  m_CorrespondingSourceObject: {fileID: 400020, guid: c7f0106764ee15349a4c9565526c0077,
+    type: 3}
+  m_PrefabInstance: {fileID: 314925573093918547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &314925573094055377 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
@@ -61118,9 +61094,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &314925573094055395 stripped
+--- !u!4 &314925573094055365 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400048, guid: c7f0106764ee15349a4c9565526c0077,
+  m_CorrespondingSourceObject: {fileID: 400022, guid: c7f0106764ee15349a4c9565526c0077,
+    type: 3}
+  m_PrefabInstance: {fileID: 314925573093918547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &314925573094055375 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400028, guid: c7f0106764ee15349a4c9565526c0077,
+    type: 3}
+  m_PrefabInstance: {fileID: 314925573093918547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &314925573094055407 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400060, guid: c7f0106764ee15349a4c9565526c0077,
+    type: 3}
+  m_PrefabInstance: {fileID: 314925573093918547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &314925573094055401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400058, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
@@ -61130,9 +61124,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &314925573093884291 stripped
+--- !u!4 &314925573094055395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400048, guid: c7f0106764ee15349a4c9565526c0077,
+    type: 3}
+  m_PrefabInstance: {fileID: 314925573093918547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &314925573093884391 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100048, guid: c7f0106764ee15349a4c9565526c0077,
+  m_CorrespondingSourceObject: {fileID: 100020, guid: c7f0106764ee15349a4c9565526c0077,
     type: 3}
   m_PrefabInstance: {fileID: 314925573093918547}
   m_PrefabAsset: {fileID: 0}
