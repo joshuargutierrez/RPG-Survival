@@ -40,7 +40,7 @@ public class Scroll : MonoBehaviour
             if(i != 0) instatiatedObj[i] = Instantiate(obj[i], new Vector3(instatiatedObj[i-1].transform.position.x + distance,
                     instatiatedObj[i-1].transform.position.y, instatiatedObj[i-1].transform.position.z), Quaternion.identity);
             instatiatedObj[i].transform.parent = parentScroll.transform;
-            defaultScale[i] = new Vector3(instatiatedObj[i].transform.localScale.x - 25, instatiatedObj[i].transform.localScale.y - 25, instatiatedObj[i].transform.localScale.z - 25);
+            defaultScale[i] = new Vector3(instatiatedObj[i].transform.localScale.x - 17, instatiatedObj[i].transform.localScale.y - 17, instatiatedObj[i].transform.localScale.z - 17);
             bigScale[i] = new Vector3(instatiatedObj[i].transform.localScale.x + 10, instatiatedObj[i].transform.localScale.y + 10, instatiatedObj[i].transform.localScale.z + 10);
         }
         for(int y = 0; y < amount + 1; y++)
@@ -57,7 +57,7 @@ public class Scroll : MonoBehaviour
         {
             for(int i = 0; i < amount; i++)
             {
-               instatiatedObj[i].transform.Rotate(0, 1, 0); 
+               instatiatedObj[i].transform.Rotate(0, 0.3f, 0); 
                if(parentScroll.transform.position.x < points[i].x && parentScroll.transform.position.x > points[i+1].x)
                {
                    smoothedX = Mathf.SmoothStep(parentScroll.transform.position.x, points[i].x - distance / 2, smoothSpeed);
