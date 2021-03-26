@@ -377,6 +377,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIController
       objectReference: {fileID: 0}
+    - target: {fileID: 5477312343632196156, guid: bb2e7950701fcf64e865b32a1de47974,
+        type: 3}
+      propertyPath: _newGameButtonLevel
+      value: Scenes/Game
+      objectReference: {fileID: 0}
     - target: {fileID: 5477312343632196158, guid: bb2e7950701fcf64e865b32a1de47974,
         type: 3}
       propertyPath: m_LocalPosition.x
