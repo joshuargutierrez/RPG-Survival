@@ -27,7 +27,7 @@ public class Scroll : MonoBehaviour
     public Text characterName;
     private float smoothedX, smoothedScale;
     private Vector3[] defaultScale, bigScale;
-    
+
     void Start()
     {
         instatiatedObj = new GameObject[amount];
@@ -48,7 +48,7 @@ public class Scroll : MonoBehaviour
             if(y == 0) points[y] = new Vector2(parentScroll.transform.position.x + distance / 2, parentScroll.transform.position.y);
             if(y != 0) points[y] = new Vector2(points[y-1].x - distance, parentScroll.transform.position.y);
         }
-        
+
     }
 
     void Update()
@@ -57,7 +57,14 @@ public class Scroll : MonoBehaviour
         {
             for(int i = 0; i < amount; i++)
             {
-               instatiatedObj[i].transform.Rotate(0, 0.3f, 0); 
+               instatiatedObj[i].transform.Rotate(0, 0.3f, 0);
+               switch (instatiatedObj[i].name)
+                {
+                    case "Izzy": Debug.Log("Izzy"); break;
+
+                    case "Dimples": Debug.Log("Dimples"); break;
+
+                }
                if(parentScroll.transform.position.x < points[i].x && parentScroll.transform.position.x > points[i+1].x)
                {
                    smoothedX = Mathf.SmoothStep(parentScroll.transform.position.x, points[i].x - distance / 2, smoothSpeed);
@@ -82,19 +89,15 @@ public class Scroll : MonoBehaviour
         }
         if(EventSystem.current.currentSelectedGameObject.name == "Select") // CODE FOR "SELECT" BUTTON
         {
-            switch(characterName.text)
-            {
+            StaticClass.CrossSceneInformation = characterName.text;
 
-                case "Izzy": SceneManager.LoadScene("Izzy"); break;
+            SceneManager.LoadScene("GameScene");
 
-                case "Dimples": SceneManager.LoadScene("Dimples"); break;
-
-                case "Winston": SceneManager.LoadScene("Winston"); break;
-
-                case "Max": SceneManager.LoadScene("Max"); break;
-
-                default: SceneManager.LoadScene("MainMenu"); break;
-            }
         }
     }
+}
+
+public static class StaticClass
+{
+    public static string CrossSceneInformation { get; set; }
 }
