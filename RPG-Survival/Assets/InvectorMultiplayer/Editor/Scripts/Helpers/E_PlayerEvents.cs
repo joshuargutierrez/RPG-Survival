@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-/*#region Shooter FSMAI Shared
+#region Shooter FSMAI Shared
 using Invector.vShooter;
 using System.Reflection;
 using UnityEditor.Events;
@@ -16,7 +16,7 @@ using System.Linq;
 using Photon.Voice.IOS;
 using UnityEditor;
 using Photon.Pun;
-#endregion*/
+#endregion
 
 namespace CBGames.Editors
 {
@@ -24,7 +24,7 @@ namespace CBGames.Editors
     {
         #region UnityEvents
 
-/*        #region Shooter Template
+        #region Shooter Template
         public static bool HasUnityEvent(vShooterWeaponBase.OnInstantiateProjectile targetEvent, string HasMethodName, UnityEngine.Object hasTarget)
         {
             int count = targetEvent.GetPersistentEventCount();
@@ -49,9 +49,9 @@ namespace CBGames.Editors
             }
             return false;
         }
-        #endregion*/
+        #endregion
 
-/*        #region Shooter FSMAI Shared
+        #region Shooter FSMAI Shared
         public static bool HasUnityEvent(vShooterWeapon.OnChangePowerCharger targetEvent, string HasMethodName, Object hasTarget)
         {
             int count = targetEvent.GetPersistentEventCount();
@@ -64,7 +64,7 @@ namespace CBGames.Editors
             }
             return false;
         }
-        #endregion*/
+        #endregion
 
         #region Copy UnityEvents
         

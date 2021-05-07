@@ -1,4 +1,3 @@
-/*
 using Invector;
 using Photon.Pun;
 using UnityEngine;
@@ -83,4 +82,3 @@ namespace CBGames.Objects
         }
     }
 }
-*/

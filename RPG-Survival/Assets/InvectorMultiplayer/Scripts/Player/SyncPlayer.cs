@@ -13,12 +13,12 @@ using System.Collections;
 using CBGames.Objects;
 using CBGames.UI;
 
-/*#region Shooter Template
+#region Shooter Template
 using Invector.vShooter;
 using Invector.IK;
 using System.Threading;
 using Invector.vCamera;
-#endregion*/
+#endregion
 
 namespace CBGames.Player
 {
@@ -263,7 +263,7 @@ namespace CBGames.Player
                 }
                 SetLayer();
                 SetTags(animator.GetBoneTransform(HumanBodyBones.Hips).transform);
-/*                #region Shooter Template
+                #region Shooter Template
                 if (GetComponent<vShooterManager>())
                 {
                     if (GetComponent<vShooterManager>().ignoreTags.Contains("Player"))
@@ -271,13 +271,13 @@ namespace CBGames.Player
                         GetComponent<vShooterManager>().ignoreTags.Remove("Player");
                     }
                 }
-                #endregion*/
+                #endregion
             }
             else
             {
-/*                #region Shooter Template
+                #region Shooter Template
                 SetBodyParts(true);
-                #endregion*/
+                #endregion
                 EnableDeathCamera(false);
                 if (animator.GetValidParameter("HitDirection") == null || animator.GetValidParameter("ReactionID") == null || 
                     animator.GetValidParameter("TriggerReaction") == null || animator.GetValidParameter("ResetState") == null ||
@@ -345,7 +345,7 @@ namespace CBGames.Player
                 SetTags(child);
             }
         }
-/*      #region Shooter Template
+      #region Shooter Template
         /// <summary>
         /// Turns the triggers on/off for the body parts of the player based on the input value.
         /// </summary>
@@ -398,7 +398,7 @@ namespace CBGames.Player
             }
             //target.tag = "Untagged";
         }
-        #endregion*/
+        #endregion
 
         /// <summary>
         /// Make sure the network versions allowed to hit the `Player` Layer and tag and the 
@@ -744,9 +744,9 @@ namespace CBGames.Player
         public virtual void NetworkActiveRagdoll(vDamage damage = null)
         {
             _ragdolled = true;
-/*            #region Shooter Template
+            #region Shooter Template
             SetBodyParts(false);
-            #endregion*/
+            #endregion
             GetComponent<PhotonView>().RPC("SetActiveRagdoll", RpcTarget.Others, true);
         }
         /// <summary>
@@ -754,9 +754,9 @@ namespace CBGames.Player
         /// </summary>
         protected virtual void NetworkDisableRagdoll()
         {
-/*           #region Shooter Template
+           #region Shooter Template
             SetBodyParts(false);
-            #endregion*/
+            #endregion
             GetComponent<PhotonView>().RPC("SetActiveRagdoll", RpcTarget.Others, false);
         }
         #endregion
@@ -858,9 +858,9 @@ namespace CBGames.Player
         [PunRPC]
         protected virtual void SetActiveRagdoll(bool isActive)
         {
-/*          #region Shooter Template
+          #region Shooter Template
             SetBodyParts(false);
-            #endregion*/
+            #endregion
             if (isActive == true)
             {
                 tpc.EnableRagdoll();
@@ -1095,7 +1095,7 @@ namespace CBGames.Player
 
         #endregion
 
-/*        #region Shooter Template
+        #region Shooter Template
         [PunRPC]
         protected virtual void SetAnimatorLayerWeights(int layer, float weight)
         {
@@ -1190,7 +1190,7 @@ namespace CBGames.Player
             Transform weaponTransform = StaticMethods.FindTargetChild(treeToWeapon, transform.root);
             weaponTransform.gameObject.GetComponent<MP_ShooterWeapon>().RecieveNetworkOnChangerPowerCharger(amount);
         }
-        #endregion*/
+        #endregion
 
 /*        #region Swimming Addon
         [PunRPC]

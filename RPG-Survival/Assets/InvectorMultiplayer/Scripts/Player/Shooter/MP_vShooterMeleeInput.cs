@@ -1,4 +1,3 @@
-/*
 using CBGames.Core;
 using CBGames.Objects;
 using Invector.vEventSystems;
@@ -644,4 +643,3 @@ namespace Invector.vCharacterController
         #endregion
     }
 }
-*/

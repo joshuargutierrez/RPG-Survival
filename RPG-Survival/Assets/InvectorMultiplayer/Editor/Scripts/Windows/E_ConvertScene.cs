@@ -286,16 +286,16 @@ namespace CBGames.Editors
             {
                 foreach (vTriggerGenericAction ga in GameObject.FindObjectsOfType<vTriggerGenericAction>())
                 {
-/*                    #region Shooter Template
+                    #region Shooter Template
                     if (ga.gameObject.GetComponent<vThrowCollectable>()) continue;
-                    #endregion*/
+                    #endregion
                     if (ga.gameObject.GetComponent<vItemCollection>()) continue;
                     if (ga.gameObject.GetComponent<CallNetworkEvents>()) continue;
                     convertables.Add(ga.gameObject);
                 }
             }
             
-/*            #region Shooter Template
+            #region Shooter Template
             if (_cvThrowCollectable == true)
             {
                 foreach (vThrowCollectable tc in GameObject.FindObjectsOfType<vThrowCollectable>())
@@ -316,7 +316,7 @@ namespace CBGames.Editors
                     }
                 }
             }
-            #endregion*/
+            #endregion
         }
 
         private void PreviewObject(GameObject obj)
@@ -355,7 +355,7 @@ namespace CBGames.Editors
                 _previewConverts.Add("* Add CallNetworkEvents component");
                 _previewConverts.Add("* Copy All UnityEvents From vTriggerGenericAction -> CallNetworkEvents");
             }
-/*            #region Shooter Template
+            #region Shooter Template
             if (_target.GetComponent<UseItemEventTrigger>() && _cUseItemTrigger == true)
             {
                 _previewConverts.Add("* Add PhotonView component");
@@ -368,7 +368,7 @@ namespace CBGames.Editors
                 _previewConverts.Add("* Add CallNetworkEvents component");
                 _previewConverts.Add("* Copy OnCollectObject -> CallNetworkEvents");
             }
-            #endregion*/
+            #endregion
             _previewScrollHeight = _previewConverts.Count * 40;
         }
 
@@ -393,10 +393,10 @@ namespace CBGames.Editors
                 C_vHealthController(convertable);
                 C_vTriggerGenericActions(convertable);
 
-/*                #region Shooter Template
+                #region Shooter Template
                 C_vThrowCollectable(convertable);
                 C_UseItemEventTrigger(convertable);
-                #endregion*/
+                #endregion
             }
             _converting = false;
             if (EditorUtility.DisplayDialog("Scene Conversion Completed!",
@@ -534,9 +534,9 @@ namespace CBGames.Editors
             if (!target.GetComponent<vTriggerGenericAction>()) return;
             if (target.GetComponent<vItemCollection>()) return;
             
-/*            #region Shooter Template
+            #region Shooter Template
             if (target.GetComponent<vThrowCollectable>()) return;
-            #endregion*/
+            #endregion
 
             _convertedGenericTriggers = true;
             if (!target.GetComponent<CallNetworkEvents>())
@@ -612,7 +612,7 @@ namespace CBGames.Editors
             //}
         }
         
-/*        #region Shooter Template
+        #region Shooter Template
         void C_vThrowCollectable(GameObject target)
         {
             if (!target.GetComponent<vThrowCollectable>()) return;
@@ -650,6 +650,6 @@ namespace CBGames.Editors
                 UnityEventTools.AddPersistentListener(target.GetComponent<UseItemEventTrigger>().itemEvent.onUse, target.GetComponent<CallNetworkEvents>().CallNetworkInvoke1);
             }
         }
-        #endregion*/
+        #endregion
     }
 }

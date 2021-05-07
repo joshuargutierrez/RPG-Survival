@@ -289,7 +289,7 @@ namespace CBGames.Objects
         }
         #endregion
 
-/*        #region Shooter Template
+        #region Shooter Template
         public virtual void NetworkArrowViewDestroy()
         {
             Transform you = NetworkManager.networkManager.GetYourPlayer().transform;
@@ -299,7 +299,7 @@ namespace CBGames.Objects
                 GetComponent<ArrowView>().viewId
             );
         }
-        #endregion*/
+        #endregion
 
         #region NetworkEvents
         public virtual Transform GetHolder()

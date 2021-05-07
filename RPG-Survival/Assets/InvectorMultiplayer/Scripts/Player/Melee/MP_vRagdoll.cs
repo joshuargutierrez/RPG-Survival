@@ -1,4 +1,4 @@
-/*#region Shooter Template
+#region Shooter Template
 using UnityEngine;
 
 namespace Invector.vCharacterController
@@ -11,4 +11,4 @@ namespace Invector.vCharacterController
         }
     }
 }
-#endregion*/
+#endregion
