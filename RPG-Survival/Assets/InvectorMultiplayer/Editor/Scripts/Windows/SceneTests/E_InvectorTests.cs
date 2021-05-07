@@ -1,4 +1,3 @@
-/*
 using Invector.vCharacterController.vActions;
 using System.Collections.Generic;
 using CBGames.Player;
@@ -81,4 +80,3 @@ namespace CBGames.Editors
         }
     }
 }
-*/
