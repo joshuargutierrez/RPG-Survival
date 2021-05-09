@@ -1,4 +1,3 @@
-/*
 
 using CBGames.Core;
 using CBGames.Player;
@@ -44,4 +43,3 @@ namespace CBGames.Objects
     }
 }
 
-*/

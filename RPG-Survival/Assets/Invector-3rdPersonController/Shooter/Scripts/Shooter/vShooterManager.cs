@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace Invector.vShooter
@@ -117,7 +117,8 @@ namespace Invector.vShooter
         public bool showCheckAimGizmos;
         internal bool isReloadingWeapon;
         private Animator animator;
-        private bool usingThirdPersonController;
+        //private bool usingThirdPersonController;
+        protected bool usingThirdPersonController;
         private float hipfirePrecisionAngle;
         private float hipfirePrecision;
 

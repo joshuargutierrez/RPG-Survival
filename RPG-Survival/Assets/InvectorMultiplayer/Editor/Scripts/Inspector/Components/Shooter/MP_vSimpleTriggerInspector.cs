@@ -1,4 +1,3 @@
-/*
 using UnityEditor;
 using UnityEngine;
 using CBGames.Editors;
@@ -30,4 +29,3 @@ namespace CBGames.Inspector
         }
     }
 }
-*/

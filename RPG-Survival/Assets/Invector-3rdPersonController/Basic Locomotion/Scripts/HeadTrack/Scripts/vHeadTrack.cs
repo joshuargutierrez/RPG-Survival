@@ -1,4 +1,4 @@
-﻿using Invector.vEventSystems;
+using Invector.vEventSystems;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -76,7 +76,8 @@ namespace Invector.vCharacterController
         internal List<vLookTarget> targetsInArea = new List<vLookTarget>();
         internal bool ignoreSmooth = false;
         private float yRotation, xRotation;
-        private float _currentHeadWeight, _currentbodyWeight;
+        //private float _currentHeadWeight, _currentbodyWeight;
+        protected float _currentHeadWeight, _currentbodyWeight;
         private Animator animator;
         private vIAnimatorStateInfoController animatorStateInfo;
         private float headHeight;

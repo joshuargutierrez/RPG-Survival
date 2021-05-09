@@ -1,4 +1,3 @@
-/*
 using CBGames.Editors;
 using CBGames.Objects;
 using Invector.vItemManager;
@@ -203,4 +202,3 @@ namespace CBGames.Editors
         #endregion
     }
 }
-*/

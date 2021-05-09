@@ -1,4 +1,3 @@
-/*
 using Invector.vCharacterController;
 using Invector.vCharacterController.vActions;
 using System.Collections.Generic;
@@ -60,4 +59,3 @@ namespace CBGames.Editors
         #endregion
     }
 }
-*/

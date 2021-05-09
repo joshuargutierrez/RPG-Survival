@@ -1,4 +1,3 @@
-/*
 using CBGames.Objects;
 using UnityEditor;
 using UnityEngine;
@@ -25,4 +24,3 @@ namespace CBGames.Editors
         }
     }
 }
-*/

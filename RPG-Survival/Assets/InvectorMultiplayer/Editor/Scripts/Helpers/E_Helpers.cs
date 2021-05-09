@@ -14,9 +14,9 @@ using Invector.vCharacterController.vActions;
 using UnityEditor.Events;
 using System.Linq;
 
-/*#region Shooter Template
+#region Shooter Template
 using Invector.vShooter;
-#endregion*/
+#endregion
 
 namespace CBGames.Editors
 {
