@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Events;
@@ -80,7 +80,8 @@ namespace Invector.vItemManager
                 bool containsListener = false;
                 for (int i = 0; i < equipPointL.onInstantiateEquiment.GetPersistentEventCount(); i++)
                 {
-                    if (equipPointL.onInstantiateEquiment.GetPersistentTarget(i).GetType().Equals(typeof(vShooterManager)) && equipPointL.onInstantiateEquiment.GetPersistentMethodName(i).Equals("SetLeftWeapon"))
+                    //if (equipPointL.onInstantiateEquiment.GetPersistentTarget(i).GetType().Equals(typeof(vShooterManager)) && equipPointL.onInstantiateEquiment.GetPersistentMethodName(i).Equals("SetLeftWeapon"))
+                    if ((equipPointL.onInstantiateEquiment.GetPersistentTarget(i).GetType().Equals(typeof(vShooterManager)) || equipPointL.onInstantiateEquiment.GetPersistentTarget(i).GetType().IsSubclassOf(typeof(vShooterManager))) && equipPointL.onInstantiateEquiment.GetPersistentMethodName(i).Equals("SetLeftWeapon"))
                     {
                         containsListener = true;
                         break;
@@ -155,7 +156,8 @@ namespace Invector.vItemManager
                 bool containsListener = false;
                 for (int i = 0; i < equipPointR.onInstantiateEquiment.GetPersistentEventCount(); i++)
                 {
-                    if (equipPointR.onInstantiateEquiment.GetPersistentTarget(i).GetType().Equals(typeof(vShooterManager)) && equipPointR.onInstantiateEquiment.GetPersistentMethodName(i).Equals("SetRightWeapon"))
+                    //if (equipPointR.onInstantiateEquiment.GetPersistentTarget(i).GetType().Equals(typeof(vShooterManager)) && equipPointR.onInstantiateEquiment.GetPersistentMethodName(i).Equals("SetRightWeapon"))
+                    if ((equipPointR.onInstantiateEquiment.GetPersistentTarget(i).GetType().Equals(typeof(vShooterManager)) || equipPointR.onInstantiateEquiment.GetPersistentTarget(i).GetType().IsSubclassOf(typeof(vShooterManager))) && equipPointR.onInstantiateEquiment.GetPersistentMethodName(i).Equals("SetRightWeapon"))
                     {
                         containsListener = true;
                         break;

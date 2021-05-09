@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -313,7 +313,8 @@ namespace Invector.vCharacterController
         }
 
         // active ragdoll - call this method to turn the ragdoll on      
-        public void ActivateRagdoll(vDamage damage)
+        //public void ActivateRagdoll(vDamage damage)
+        public virtual void ActivateRagdoll(vDamage damage)
         {
             if (isActive || (damage != null && !damage.activeRagdoll))
                 return;

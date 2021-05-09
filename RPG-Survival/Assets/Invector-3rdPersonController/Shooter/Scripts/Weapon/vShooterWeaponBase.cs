@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -164,7 +164,8 @@ namespace Invector.vShooter
             }
         }     
 
-        protected virtual bool CanDoEmptyClip
+        //protected virtual bool CanDoEmptyClip
+        public virtual bool CanDoEmptyClip
         {
             get
             {
